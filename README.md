@@ -5,4 +5,4 @@
 
 https://github.com/ndb796/Python-Data-Analysis-and-Image-Processing-Tutorial
 
-코랩 위주로 코드를 올릴 예정입니다.
+코랩을 위주로 올릴 예정입니다.
