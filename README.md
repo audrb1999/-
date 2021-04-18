@@ -7,5 +7,4 @@
 코랩을 위주로 올릴 예정입니다.
 
 
-- 나동빈님의 데이터 분석과 이미지 처리 바로가기 ▼
-https://github.com/ndb796/Python-Data-Analysis-and-Image-Processing-Tutorial
+- 나동빈님의 데이터 분석과 이미지 처리 바로가기 ▶ https://github.com/ndb796/Python-Data-Analysis-and-Image-Processing-Tutorial
