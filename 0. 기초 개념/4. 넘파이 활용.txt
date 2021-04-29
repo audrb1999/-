@@ -1,0 +1,77 @@
+
+
+넘파이 데이터 저장, 불러오기
+
+array = np.arange(0, 10)
+np.save('saved.npy', array)   > 이렇게 저장함
+
+
+불러오기
+
+result = np.load('saved.npy')
+
+
+복수 객체 저장하기
+
+array1 = np.arange(0, 10)
+array2 = np.arange(10, 20)
+
+np.savez('saved.npz, array1 = array1, array2 = arrra2')
+
+
+복수 객체 불러오기
+
+data = np.load(saved.npz)
+result1 = data['array1']
+result2 = data['array2']
+
+이렇게 나눠 담음
+
+
+넘파이 원소 정렬 > 기본은 오름차순 정렬
+
+array = np.array([5, 9, 10, 3, 1])
+
+array.sort()  > 올림차순
+
+array[::-1] > 내림차순
+
+
+2차원 데이터 정렬
+
+array = np.array([5, 9, 10, 3, 1], [2, 4, 8, 9, 10])
+
+array.sort(axis = 0)  > 각각 행 위아래 값비교후 정렬
+
+[2] 
+[5] 이렇게
+
+
+
+균일한 간격으로 데이터 생성
+
+np.linspace(시작, 끝, 그 사이에 몇개의 값이 있는지)
+
+
+난수의 재연
+
+np.random.seed(7)   > 난수 값을 고정시킴, 실행 여러번 시켜도 동일한 값이 나옴
+# 머신러닝 학습을 시킬 때 난수가 달라 결과가 달라지는 걸 막고자 한 것
+
+np.random.randint(0 ,10, (2, 3))  > 안쓰면 랜덤
+
+
+
+
+넘파이값 완전 복사, 그냥 지정해주면 경로가 같아서 값을 바꾸면 원본 값도 바뀜
+
+array2 = array1.copy
+
+
+
+
+넘파이 중복 데이터 삭제
+
+array = np.array([1, 1, 1, 1 ])
+
+np.unique(array)
