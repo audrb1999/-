@@ -1,0 +1,101 @@
+
+컴퓨터 비전 분야에서 많이 사용됨
+
+영상 처리와 컴퓨터 비전을 위한 오픈소스 라이브러리
+
+c, c++ 파이썬에서 지원이 됨
+
+
+
+이미지를 읽어와서 이미지를 흑백으로 바꿔보자
+
+
+-------------------------------------------------------------------------------------------------
+cv2.imread(file_name, flag)   > 이미지를 읽어 넘파이 객체로 만드는 함수
+
+플래그는 이미지를 읽는 방법 설정
+
+IMREAD_COLOR > 이미지를 COLOR로 읽고 투명한 부분은 무시
+
+IMREAD_GRAYSCALE = 이미지를 흑백으로 읽기
+
+IMREAD_UNCHANGED = 이미지를 컬러로 읽고 투명한 부분도 컬러로 만듬
+
+반환값 넘파이객체 (행, 열, 색상:기본 BGR) > RGB에서 빨간색과 파란색 위치가 바뀜
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+cv2.imshow(title, image) > 특정 이미지를 화면에 출력함 
+
+title = 윈도우 창의 제목,  image = 출력할 이미지 객체
+
+파이참이면 바로 뜨지만 코랩이면 맷플랍립 라이브러리 사용해야함<파이참은 윈도우 창을 이용해서 뜸>
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+cv2.imwrite(file_name, image)  > 특정한 이미지를 파일로 저장하는 함수
+
+저장할 이미지 파일이름 저장할 객체이름
+
+
+------------------------------------------------------------------------------------------------
+
+
+cv2.waitKey(time) > 키보드 입력을 처리하는 함수
+
+time = 입력 대기 시간 0이면 무한대
+
+반환 > 사용자의 아스키 값이 반환이 됨
+
+============================================================
+
+
+cv2.destroyAllWindows() 화면의 모든 윈도우를 닫는 함수 > 파이참
+
+
+
+
+-------------------------------------------------------------------------------------
+
+
+import cv2
+import matplotlib.pyplot as plt
+
+img_cat = cv2.imread('/images/cat.jpg', cv2.IMREAD_COLOR)
+cv2.imshow('Image Basic', img_cat)# 이미지를 보여줌
+cv2.waitKey(0)# 이미지를 보이자마자 꺼지지 않게 해줌
+cv2.imwirte('result.png', img_cat)#파일 저장
+
+img_gray = cv2.cvtColor(img_cat, cv2.COLOR_BGR2GRAY)#읽은 이미지를 컨볼트컬러를 이용해서 색깔을 바꿈
+#흑백으로 바꾼거
+
+
+
+
+
+----------------
+
+코랩에서 
+
+from google.colab import files
+file = files.upload() # 내 컴퓨터에서 파일 업로드하는 것
+
+
+
+
+import cv2
+import matplotlib.pyplot as plt
+
+img_cat = cv2.imread('images/cat.jpg', cv2.IMREAD_COLOR) # 컬러로 이미지를 읽어옴 이 데이터를 그레이스칼로 표현하면 색깔 이상해짐
+plt.imshow(cv2.cvtColor(img_cat, cv2.COLOR_BGR2RGB))
+plt.show()
+
+img_gray = cv2.cvtColor(img_cat, cv2.COLOR_BGR2GRAY)#채널값을 gray로 읽어와서
+plt.imshow(cv2.cvtColor(img_gray, cv2.COLOR_GRAY2RGB))# gray2rgb로 표현 > 흑백
+plt.show()
