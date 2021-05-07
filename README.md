@@ -10,7 +10,7 @@
 - 나동빈님의 데이터 분석과 이미지 처리 바로가기 ▶ https://github.com/ndb796/Python-Data-Analysis-and-Image-Processing-Tutorial
 
 
-1. 중급 Captcha Hacking 프로젝트
+1. 중급 Captcha Hacking 프로젝트 결과!
 
 ![정답!](https://user-images.githubusercontent.com/68139415/117444255-2b276000-af74-11eb-8cc8-e393ee749d31.PNG)
 
