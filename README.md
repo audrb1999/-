@@ -15,3 +15,7 @@
 ![정답!](https://user-images.githubusercontent.com/68139415/117444255-2b276000-af74-11eb-8cc8-e393ee749d31.PNG)
 
 제 컴퓨터로 계산을하는데 평균 4.12초 정도가 소모되서 (80초 동안 30문제 풀기) 문제 수를 절반으로 줄여서 실행했습니다.
+
+
+
+- 끝낸 후 TensorFlow Object Detection API를 공부할 예정입니다.
