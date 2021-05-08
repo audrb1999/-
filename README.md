@@ -14,7 +14,7 @@
 
 
 
- ![5334a4a46906d7d80be427781cddf355](https://user-images.githubusercontent.com/68139415/117544186-31dcd280-b05b-11eb-90bf-1278cbf87b86.png)
+![image](https://user-images.githubusercontent.com/68139415/117544657-6ce00580-b05d-11eb-936a-97b91c30fc27.png)
  
  
 ###### 중급 Captcha Hacking 프로젝트는 다음과 같은 문제를 이미지파일로 보여주면 문제를 푸는 방식으로 진행됩니다.
