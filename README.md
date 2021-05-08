@@ -12,6 +12,8 @@
 
 1. 중급 Captcha Hacking 프로젝트!
   - 중급 Captcha Hacking 프로젝트란?
+
+
  ![5334a4a46906d7d80be427781cddf355](https://user-images.githubusercontent.com/68139415/117544186-31dcd280-b05b-11eb-90bf-1278cbf87b86.png)
  
  
