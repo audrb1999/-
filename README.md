@@ -13,9 +13,9 @@
 1. 중급 Captcha Hacking 프로젝트!
 
 
+![image](https://user-images.githubusercontent.com/68139415/117544688-83865c80-b05d-11eb-8593-c07026178f32.png)
 
-![image](https://user-images.githubusercontent.com/68139415/117544657-6ce00580-b05d-11eb-936a-97b91c30fc27.png)
- 
+
  
 ###### 중급 Captcha Hacking 프로젝트는 다음과 같은 문제를 이미지파일로 보여주면 문제를 푸는 방식으로 진행됩니다.
 
