@@ -13,8 +13,13 @@
 1. 중급 Captcha Hacking 프로젝트!
   - 중급 Captcha Hacking 프로젝트란?
  ![5334a4a46906d7d80be427781cddf355](https://user-images.githubusercontent.com/68139415/117544186-31dcd280-b05b-11eb-90bf-1278cbf87b86.png)
+ 
+ 
 다음과 같은 문제를 이미지파일로 보여주면 푸는 것!
+
+
 초반에는 간단히 풀 수 있는 문제가 나오지만 점점 진행되면 계산하는데 시간이 걸리는 문제가 나옵니다. 
+
   ![fc5a373da97ff27b3441a9c6b46838ba](https://user-images.githubusercontent.com/68139415/117544181-2689a700-b05b-11eb-8c40-22adc2d0b008.png)
  
 
