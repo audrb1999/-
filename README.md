@@ -5,7 +5,7 @@
 
 ---
 
-### 1. 중급 Captcha Hacking 프로젝트!
+###  중급 Captcha Hacking 프로젝트!
 
 
 ###### 중급 Captcha Hacking 프로젝트는 다음과 같은 문제를 이미지파일로 보여주면 문제를 푸는 방식으로 진행됩니다.
